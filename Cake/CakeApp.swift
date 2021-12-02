@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct CakeApp: App {
+    @StateObject var order = Order()
+    
     var body: some Scene {
         WindowGroup {
             OrderView()
+                .environmentObject(order)
         }
     }
 }

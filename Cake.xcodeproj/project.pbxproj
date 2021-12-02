@@ -17,6 +17,7 @@
 		421CA4CD27301C120047AE87 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421CA4CC27301C120047AE87 /* Order.swift */; };
 		421CA4D12730200D0047AE87 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421CA4D02730200D0047AE87 /* AddressView.swift */; };
 		421CA4D3273020B70047AE87 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421CA4D2273020B70047AE87 /* CheckoutView.swift */; };
+		425A374627588F8900540C63 /* CakeOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425A374527588F8900540C63 /* CakeOrder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		421CA4CC27301C120047AE87 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		421CA4D02730200D0047AE87 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
 		421CA4D2273020B70047AE87 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		425A374527588F8900540C63 /* CakeOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeOrder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				421CA4CC27301C120047AE87 /* Order.swift */,
 				421CA4D02730200D0047AE87 /* AddressView.swift */,
 				421CA4D2273020B70047AE87 /* CheckoutView.swift */,
+				425A374527588F8900540C63 /* CakeOrder.swift */,
 			);
 			path = Cake;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				425A374627588F8900540C63 /* CakeOrder.swift in Sources */,
 				421CA4D12730200D0047AE87 /* AddressView.swift in Sources */,
 				421CA4CD27301C120047AE87 /* Order.swift in Sources */,
 				421CA4D3273020B70047AE87 /* CheckoutView.swift in Sources */,
